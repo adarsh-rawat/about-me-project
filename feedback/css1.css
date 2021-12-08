@@ -1,0 +1,106 @@
+body{
+	margin: 0;
+	width: 100%;
+	overflow: auto;
+	font-size: 18px;
+	font-family: Merriweather;
+}
+.left, .right{
+	float: left;
+	width: calc(40% - 1px);
+	padding: 2% 5%;
+	overflow: auto;
+}
+.left{
+	border-right: 2px solid grey;
+}
+form{
+	display: grid;
+}
+form *{
+	margin-top: 10px;
+	padding: 5px;
+	font-size: 18px;
+}
+#btn1{
+padding: 8px 20px;
+margin-top: 30px;
+background: #4285F4;
+border-radius: 7px;
+color: white;
+border: none;
+box-shadow: 0 0 9px -3px black;
+cursor: pointer;
+}
+form input{
+	box-shadow: 0 0 15px -10px;
+	border-radius: 15px;
+	border: 1px solid grey;
+	width:fit-content;
+}
+select{
+	border-radius: 17px;
+border: 1px solid #fc6103;
+background: #f6f6f6;
+margin-right: 10px;
+}
+
+.right{
+	box-shadow: 0 0 70px -40px inset #ffdfdf;
+	min-height: 100vh;
+}
+.card{
+	width: 80%;
+	background: white;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	box-shadow: 0 14px 43px -25px black;
+	margin: auto;
+	margin-bottom: 40px;
+	transition: all 1s;
+	will-change: opacity;
+	position: relative;
+	top: 0;
+}
+.fade{
+	opacity: 0;
+}
+.card .head{
+	color: white;
+	padding: 10px 20px;
+	font-size: 20px;
+	overflow: clip;
+	background: #fc6103;
+	border-top-left-radius: inherit;
+	border-top-right-radius: inherit;
+	text-transform: capitalize;
+	word-spacing: 2px;
+}
+.card .content{
+	padding: 20px 40px 25px;
+}
+footer{
+	width: 100%;
+display: block;
+float: left;
+box-shadow: 0 0 30px -13px black;
+margin-top: 30px;
+}
+.footerContainer{
+	padding: 26px 0;
+}
+.footerMain{
+	text-align: center;
+	font-size: 18px;
+}
+.footerMain img{
+	max-height: 17px;
+	margin-bottom: -2px;
+}
+.footerMain a{
+	color: red;
+	font-weight: bold;
+	text-decoration: none;
+}
