@@ -59,7 +59,7 @@ margin-right: 10px;
 	box-shadow: 0 14px 43px -25px black;
 	margin: auto;
 	margin-bottom: 40px;
-	transition: all 1s;
+	transition: opacity 1s;
 	will-change: opacity;
 	position: relative;
 	top: 0;
