@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+}
+main{
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+/*
+for header
+*/
+header ul li{
+    display: inline-block;
+    padding: 0 30px;
+}
+header ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: Consolas;
+    font-weight: bold;
+    border-bottom: 2px solid #fc6103;
+    padding-bottom: 3px;
+}
+header ul {
+  float: right;
+  margin: 20px 10%;
+  display: block;
+}
+header{
+    overflow: auto;
+}
+.page{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    margin-bottom: 35px;
+    padding: 30px;
+    scroll-snap-align: center;
+}
+.page-inner{
+    box-shadow: 0 0 20px -9px #000;
+    border: 3px solid #fc6103;
+    position: relative;
+    height: calc(100vh - 60px);
+    border-radius: 50px;
+}
+/*header ends here and main heading starts*/
+#page1 .head span{
+    font-size: 80px;
+    font-family: Comfortaa;
+    color: #fc6103;
+}
+#page1 .head {
+    text-align: center;
+    padding-top: 15vh;
+}
+/*heading ends and dual text starts here*/
+#page1 .body{
+    margin: 20px;
+    width: 100%;
+    overflow: auto;
+}
+#page1 .text{
+    overflow: auto;
+display: flex;
+justify-content: center;
+}
+#page1 .t1, #page1 .t2{
+    margin: 1vw;
+min-width: 300px;
+max-width: 400px;
+font-size: 18px;
+font-family: Consolas;
+padding: 10px;
+border-radius: 15px;
+box-shadow: 0 0 20px -10px #6565ff;
+line-height: 26px;
+color: #2e2e2e;
+text-align: center;
+}
+
+#page1 .link img{
+  max-width: 48px;
+}
+#page1 .links{
+display: flex;
+text-align: center;
+justify-content: center;
+margin-top: 1vh;
+font: 18px Comfortaa;
+position: absolute;
+margin-bottom: 50px;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+}
+#page1 .link{
+transition: all;
+margin: 0 25px;
+cursor: pointer;
+}
+#page1 img{
+transition: all 0.5s;
+}
+#page1 .link img:hover{
+filter: drop-shadow(0 0 1px black);
+position: relative;
+transform: scale(1.2);
+}
+/*Page 1 ends here*/
+
+/*Academic journey code starts here*/
+
+#academic .head{
+    color: #333;
+    padding: 0 20px;
+    border-right: 3px solid #fc6103;
+    line-height: 50px;
+    letter-spacing: -4px;  
+}
+
+#academic .page-inner, #mywork .page-inner{
+    padding: 10px;
+    display: flex;
+    margin: auto;
+    justify-content: ceter;
+    align-items: center;
+    flex-direction: row;
+    font-family: Comfortaa;
+}
+  #academic .content{
+    font-size: 18px;
+    padding-right: 5%;
+    padding-left: 5%;
+    line-height: 35px;
+    width: 100%;
+}
+#academic li{
+    padding-bottom: 20px;    
+}
+/*page 2 ends here and page 3 starts here*/
+#mywork .left, #mywork .right{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 5%;
+    font-size: 20px;
+    line-height: 30px;
+}
+#mywork .left{
+    border-right: 3px solid #fc6103;
+}
+/*page 4 starts here*/
+#page4 .page-inner{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: clip;
+    text-align: center;
+    line-height: 35px;
+    font-family: Comfortaa;
+}
+
+footer{
+	width: 100%;
+display: block;
+float: left;
+box-shadow: 0 0 30px -13px black;
+margin-top: 30px;
+position: absolute;
+bottom: 0;
+font-size: 16px;
+}
+.footerContainer{
+	padding: 26px 0;
+}
+.footerMain{
+	text-align: center;
+	font-size: 18px;
+}
+.footerMain img{
+	max-height: 17px;
+	margin-bottom: -2px;
+}
+.footerMain a{
+	color: red;
+	font-weight: bold;
+	text-decoration: none;
+}
