@@ -38,6 +38,11 @@ form input{
 	border: 1px solid grey;
 	width:fit-content;
 }
+.form-inner{
+	padding: 20px;
+	border-radius: 25px;
+	box-shadow: 0 0 10px -4px;
+}
 select{
 	border-radius: 17px;
 border: 1px solid #fc6103;
