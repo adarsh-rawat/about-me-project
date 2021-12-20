@@ -12,22 +12,23 @@
 		<p>I will be glad if you have any thought about this website.</p>
 	</div>
 	<div class="form-inner">
-		<form id='form1' autocomplete="on" onsubmit="return false">
+		<form id='form1' autocomplete="on">
 			<label>First Name</label>
-			<fieldset style="border:none;">
-			<select id='salutation'>
-				<option>Select</option>
-				<option>Mr.</option>
-				<option>Ms.</option>
-				<option>Mrs.</option>
-			</select>
 			<input type="text" name="firstName" id="firstName" maxlength="10">
-			</fieldset>
 			<label>Last Name</label>
 			<input type="text" name="lastName" id="lastName" maxlength="10">
+			<label>Gender</label>
+			<fieldset style="border:none">
+			<label>
+			<input type="radio" name='salutation' class='salutation' value="male" style="box-shadow: 0 0 0;" required="required"/>Male</label>
+			<label><input type="radio" name='salutation' class="salutation" value="female" style="box-shadow: 0 0 0;"/>Female</label>
+			</fieldset>
 			<label>Your Comments:</label>
 			<textarea maxlength="75" id="comment" class="text" rows="3" placeholder="write here..."></textarea>
-			<input type="button" value="Submit" id="btn1">
+			<fieldset style="border: none">
+				<input type="button" value="Submit" id="btn1"> 
+			 	<input type="button" value="Reset" style="float: right;" onclick="document.querySelector('form').reset()" id="btn2">
+			 </fieldset>
 		</form>
 	</div>
 </div>
@@ -43,7 +44,7 @@
 <footer>
 <div class="footerContainer">
 	<div class="footerInner">
-		<div class="footerMain">Made with <img src="https://1.bp.blogspot.com/-NGlsolQi1uM/YR81nPapB-I/AAAAAAAACvI/_2UISukdPmE2h6TtwNe0Dnz-qnMWAPtMACLcBGAsYHQ/s0/like.png" alt="Love"/>  by- <a href="https://htmlpreview.github.io/?https://github.com/adarshrawat1/about-me-project/blob/main/main/main.html">Adarsh Rawat</a>
+		<div class="footerMain">Made with <img src="https://1.bp.blogspot.com/-NGlsolQi1uM/YR81nPapB-I/AAAAAAAACvI/_2UISukdPmE2h6TtwNe0Dnz-qnMWAPtMACLcBGAsYHQ/s0/like.png" alt="Love"/>  by- <a href="aboutme-remixed.html">Adarsh Rawat</a>
 		</div>
 	</div>
 </div>
