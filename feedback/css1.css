@@ -22,7 +22,7 @@ form *{
 	padding: 5px;
 	font-size: 18px;
 }
-#btn1{
+#btn1, #btn2{
 padding: 8px 20px;
 margin-top: 30px;
 background: #4285F4;
@@ -37,11 +37,6 @@ form input{
 	border-radius: 15px;
 	border: 1px solid grey;
 	width:fit-content;
-}
-.form-inner{
-	padding: 20px;
-	border-radius: 25px;
-	box-shadow: 0 0 10px -4px;
 }
 select{
 	border-radius: 17px;
@@ -64,7 +59,7 @@ margin-right: 10px;
 	box-shadow: 0 14px 43px -25px black;
 	margin: auto;
 	margin-bottom: 40px;
-	transition: opacity 1s;
+	transition: all 1s;
 	will-change: opacity;
 	position: relative;
 	top: 0;
